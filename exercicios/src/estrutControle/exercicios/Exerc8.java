@@ -15,10 +15,11 @@ public class Exerc8 {
 
 		for (int i = 1; i <= ql; i++) {
 
-			String pp = p.substring(i-1, i);
+			String pp = p.substring(i - 1, i);
 			System.out.println(pp);
 
 		}
+		scn.close();
 
 	}
 

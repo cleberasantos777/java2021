@@ -14,8 +14,8 @@ public class Exerc6 {
 		int n = g.nextInt(r);
 		Scanner scn = new Scanner(System.in);
 
-		for (int i = 1; i <= t; i++) {			
-			
+		for (int i = 1; i <= t; i++) {
+
 			System.out.println("Digite um número entre 0 e 100: ");
 			int num = scn.nextInt();
 
@@ -30,11 +30,12 @@ public class Exerc6 {
 				break;
 			} else {
 				System.err.println("Infelizmente você não conseguiu, suas chances acabaram!");
-				
+
 			}
-			System.out.println("Você ainda tem " + (t-i) + " Chances");
+			System.out.println("Você ainda tem " + (t - i) + " Chances");
 
 		}
+		scn.close();
 
 	}
 

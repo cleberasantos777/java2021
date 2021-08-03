@@ -13,7 +13,7 @@ public class Exerc7 {
 			System.out.println("Digite um valor: ");
 			double num = scn.nextDouble();
 			if (num >= 0) {
-				n = n+num;
+				n = n + num;
 
 			} else {
 				System.out.println("Você digitou um valor negativo, sistema encerrado!");
@@ -22,5 +22,6 @@ public class Exerc7 {
 			System.out.println("O valor da soma atual é: " + n);
 
 		}
+		scn.close();
 	}
 }

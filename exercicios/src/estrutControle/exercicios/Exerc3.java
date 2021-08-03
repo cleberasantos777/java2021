@@ -22,6 +22,7 @@ public class Exerc3 {
 			System.out.println("Sua média é: " + mf + " você foi Reprovado!");
 
 		}
+		scn.close();
 	}
 
 }

@@ -19,11 +19,12 @@ public class Exerc9 {
 			int n = scn.nextInt();
 
 			num.add(n);
-			
+
 		}
-		
+
 		System.out.println("O maior numero digitado foi: " + Collections.max(num));
 
+		scn.close();
 	}
 
 }
